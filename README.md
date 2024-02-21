@@ -1,10 +1,10 @@
 # auto_comandVoice
 Este projeto tem como objetivo criar uma assistente virtual para automação residencial, utilizando redes neurais para interpretação de comandos de voz, juntamente com hardware como Arduino, motores, lâmpadas, sirenes e outros elementos de automação.
 
-Reconhecimento de Voz para Automação
+# Reconhecimento de Voz para Automação
 Este projeto apresenta um sistema simples de reconhecimento de voz para automação, onde os comandos de voz do usuário são interpretados e executam ações correspondentes no computador.
 
-Funcionamento
+# Funcionamento
 O código utiliza a biblioteca speech_recognition para capturar a entrada de áudio do microfone do usuário e reconhecer o comando de voz. Os passos são os seguintes:
 
 Habilita o microfone do usuário.
@@ -18,14 +18,15 @@ Retorna a frase pronunciada pelo usuário.
 Instalação
 Antes de executar o código, é necessário instalar a biblioteca speech_recognition. Você pode instalar todas as dependências executando o seguinte comando:
 
-Copy code
-pip install SpeechRecognition
+
+--pip install SpeechRecognition--
+
 Além disso, este código pode exigir a instalação de outras dependências, dependendo do sistema operacional. Por exemplo, para o comando "start Chrome.exe" funcionar corretamente no Windows, é necessário ter o navegador Chrome instalado no computador.
 
-Utilização
+# Utilização
 Execute o código e aguarde a mensagem "Diga alguma coisa:". Fale um comando de voz reconhecível, como "abrir navegador", e aguarde a resposta do sistema. Se o comando for reconhecido, a ação correspondente será executada.
 
-Observações
+# Observações
 Certifique-se de que o microfone do seu computador esteja configurado corretamente e funcione adequadamente.
 Os comandos de voz podem variar de acordo com o idioma e a configuração do reconhecedor de voz.
 Este projeto é uma implementação básica e pode ser expandido para incluir mais comandos e ações.
